@@ -5,16 +5,22 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~qU1xkSxJ#tqacseXCBUD42oN8ThizIlmmwKaww5LHC90nOPb38_c",
 // add your Session Id
 AUTO_BIO: process.env.AUTO_BIO || "false", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*_Assalamu Alaikum 🫶💐_*
+
+
+ *_My name is Ahmad, and my bot auto-connects with your status, which is a great and new WhatsApp feature. If you also want a WhatsApp bot, save my number and send a screenshot, which has almost 500+ auto-feature commands_*
+
+ *_923147682822_*
+ *_Only 250 fees_**",
 // set the auto reply massage on status reply
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
@@ -36,7 +42,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "923043788282",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "MR-SHABAN",
+OWNER_NAME: process.env.OWNER_NAME || "AHMAD KING",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ*",
 // add bot owner name    
@@ -46,11 +52,11 @@ LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *SHABAN-MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
